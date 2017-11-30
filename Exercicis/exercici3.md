@@ -42,12 +42,12 @@ Habilitem l'esclau, el reiniciem i en comprovem l'estat:
 >  ![2](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici3/master2/Captura11.PNG)  
   
   
-Ara ja estan configurats i funciona la replicació semisíncrona entre masters i la replicació master-slave amb l'altre màquina.
+Ara ja estan configurats i funciona la replicació semisíncrona entre masters i la replicació master-slave amb l'altre màquina.  
   
-Descripció dels paràmetres que ens interesen:
-Rpl_semi_sync_master_status -> Indica si la replicació semisíncrona esta habilitada al master.
-Rpl_semi_sync_master_yes_tx -> La quantitat de commits que s'han enviat correctament al esclau.
-Rpl_semi_sync_master_no_tx  -> La quantitat de commits que no s'han pogut enviar al esclau correctament.
+Descripció dels paràmetres que ens interesen:  
+Rpl_semi_sync_master_status -> Indica si la replicació semisíncrona esta habilitada al master.  
+Rpl_semi_sync_master_yes_tx -> La quantitat de commits que s'han enviat correctament al esclau.  
+Rpl_semi_sync_master_no_tx  -> La quantitat de commits que no s'han pogut enviar al esclau correctament.  
   
 ***
 [Torna enrere](https://github.com/Josep88/MP10UF2-A5)
