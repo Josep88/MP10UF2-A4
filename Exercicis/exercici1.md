@@ -1,6 +1,8 @@
 ### Es vol muntar entorn SGBD MySQL Percona amb rèplica. Es vol tenir un MySQL master a on s'aniran enviant totes les instruccions SQL d'inserció, modificació i esborrat. Es vol tenir dos MySQL  esclau del master anteriorment esmentat.  
 ### Cal que que al realitzar un INSERT en el master veiem les dades a l'esclau al cap d'un instant de temps.  
 
+__CONFIGURACIÓ AL MASTER__
+
 Realitza una còpia del fitxer de configuració del MySQL /etc/my.conf --> /etc/my.conf.bkp  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/master/Captura1.PNG)  
   
@@ -36,7 +38,7 @@ Fes un FLUSH DELS LOGS utilitzant la comanda FLUSH LOGS dins del MySQL.
 >  ![6](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/master/Captura6.PNG)  
 
 Realitza una comprovació dels logs com a master mitjançant SHOW MASTER LOGS  
-> mysql> SHOW MASTER LOGS
+> mysql> SHOW MASTER LOGS  
 >  ![7](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/master/Captura7.PNG)  
 
 
