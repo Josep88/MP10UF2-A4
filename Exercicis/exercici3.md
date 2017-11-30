@@ -30,6 +30,7 @@ __CONFIGURACIÓ AL MASTER ACTIU__
   
 > mysql> SET GLOBAL rpl_semi_sync_master_enabled = 1;   
 > mysql> SET GLOBAL rpl_semi_sync_master_timeout = 10000;  
+  
 O també el podem activar al fitxer _/etc/my.cnf_:  
 >  ![3](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici3/master/Captura4b.PNG)  
   
