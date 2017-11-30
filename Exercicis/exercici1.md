@@ -41,6 +41,33 @@ Realitza una comprovació dels logs com a master mitjançant SHOW MASTER LOGS
 > mysql> SHOW MASTER LOGS  
 >  ![7](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/master/Captura7.PNG)  
 
+__CONFIGURACIÓ AL MASTER__
+Realitza una còpia de la màquina virtual a on tinguis SGBD MySQL. Aquesta nova màquina serà que farà d'esclau.  
+Esbrina quina IP tenen cadascuna de les màquines (master, slave).  
+Crea un backup de la BD a la màquina master utilitzant:  
+> mysqldump --user=root --password=vostrepwd --master-data=2 sakila > /tmp/master_backup.sql
+>  ![8](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/master/Captura8.PNG)  
+
+Edita el fitxer master_backup.sql i busca la línia que comenci per --CHANGE MASTER TO.... i busca els valors MASTER_LOG_FILE i MASTER_LOG_POS.
+>  ![9](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/master/Captura9.PNG)  
+  
+També podriem veure aquests valors des del MySQL:
+> mysql> SHOW MASTER STATUS;  
+>  ![9b](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/master/Captura9b.PNG)  
+
+__CONFIGURACIÓ AL SLAVE__
+Para el servei de MySQL.  
+> systemctl stop mysqld  
+  
+Modifica el fitxer de configuració /etc/my.conf  
+Comenta els paràmetres log-bin i binlog_format. D'aquesta manera desactivarem el sistema de log-bin.  
+Assigna un valor al paràmetre  server-id (diferent que el del Master).  
+
+
+Torna engegar el servei MySQL.
+
+
+
 
 
 ***
