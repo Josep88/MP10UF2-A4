@@ -59,6 +59,9 @@ __CONFIGURACIÓ ALS SLAVES__
 Para el servei de MySQL.  
 > systemctl stop mysqld  
   
+Tenim que carregar el fitxer del master que hem tret amb el mysqldump.  
+> mysql -u root -ppatata < master_backup.dump  
+                                     
 Modifica el fitxer de configuració /etc/my.conf  
 Comenta els paràmetres log-bin i binlog_format. D'aquesta manera desactivarem el sistema de log-bin.  
 Assigna un valor al paràmetre  server-id (diferent que el del Master).  
