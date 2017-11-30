@@ -1,7 +1,7 @@
 ### Es vol muntar entorn SGBD MySQL Percona amb rèplica. Es vol tenir un MySQL master a on s'aniran enviant totes les instruccions SQL d'inserció, modificació i esborrat. Es vol tenir dos MySQL  esclau del master anteriorment esmentat.  
 ### Cal que que al realitzar un INSERT en el master veiem les dades a l'esclau al cap d'un instant de temps.  
 
-__CONFIGURACIÓ AL MASTER__
+__CONFIGURACIÓ AL MASTER__  
 
 Realitza una còpia del fitxer de configuració del MySQL /etc/my.conf --> /etc/my.conf.bkp  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/master/Captura1.PNG)  
@@ -41,7 +41,8 @@ Realitza una comprovació dels logs com a master mitjançant SHOW MASTER LOGS
 > mysql> SHOW MASTER LOGS  
 >  ![7](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/master/Captura7.PNG)  
 
-__CONFIGURACIÓ AL MASTER__
+__CONFIGURACIÓ AL MASTER__  
+
 Realitza una còpia de la màquina virtual a on tinguis SGBD MySQL. Aquesta nova màquina serà que farà d'esclau.  
 Esbrina quina IP tenen cadascuna de les màquines (master, slave).  
 Crea un backup de la BD a la màquina master utilitzant:  
@@ -56,6 +57,7 @@ També podriem veure aquests valors des del MySQL:
 >  ![9b](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/master/Captura9b.PNG)  
 
 __CONFIGURACIÓ ALS SLAVES__  
+  
 Tenim que carregar el fitxer del master que hem tret amb el mysqldump.  
 > mysql -u root -ppatata < master_backup.dump  
 
@@ -73,6 +75,7 @@ Torna engegar el servei MySQL.
 >  ![2](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/slave1/Captura2.PNG)  
 
 __CONFIGURACIÓ AL MASTER__  
+  
 Afegeix l'usuari slave amb la IP de la màquina slave.  
 > mysql> CREATE USER 'slave'@'IP-SERVIDOR-SLAVE' IDENTIFIED BY 'patata';  
 Afegix el permís de REPLICATION SLAVE a l'usuari que acabes de crear.
@@ -81,6 +84,7 @@ Afegix el permís de REPLICATION SLAVE a l'usuari que acabes de crear.
 >  ![10](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/master/Captura10.PNG)  
 
 __CONFIGURACIÓ ALS SLAVES__  
+  
 A la màquina SLAVE executa la següent comanda ajudant-te de les dades del pas 3 i 4:  
 > mysql> CHANGE MASTER TO  
 > -> MASTER_HOST = '<ip-servidor-master>',  
