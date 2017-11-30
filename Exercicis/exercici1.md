@@ -74,7 +74,7 @@ Afegeix l'usuari slave amb la IP de la màquina slave.
 > mysql> CREATE USER 'slave'@'IP-SERVIDOR-SLAVE' IDENTIFIED BY 'patata';  
 Afegix el permís de REPLICATION SLAVE a l'usuari que acabes de crear.
 > mysql> GRANT REPLICATION SLAVE ON *.* TO 'slave'@'%';  
-> mysql> FLUSH PRIVILEGES;
+> mysql> FLUSH PRIVILEGES;  
 >  ![10](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/master/Captura10.PNG)  
 
 __CONFIGURACIÓ ALS SLAVES__  
@@ -91,7 +91,7 @@ A la màquina SLAVE executa la següent comanda ajudant-te de les dades del pas 
 >  ![3](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/slave2/Captura3.JPG)  
   
 I podem comprovar que esta a la espera d'esdeveniments des del master:  
-> mysql> SHOW SLAVE STATUS\G
+> mysql> SHOW SLAVE STATUS\G  
 >  ![4](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/slave1/Captura4.PNG)  
 >  ![4](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/slave2/Captura4.JPG)  
 
