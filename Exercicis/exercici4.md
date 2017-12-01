@@ -9,7 +9,7 @@ Indica la quantitat de cops que s'intentarà connectar abans de cancelar-se.
 >  ![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/slave2/Captura3.JPG)  
 
 ### Què fa la comanda RESET MASTER en el cas de no utilitzar GTID i utilitzar-lo?  
-
+Eliminia tots els fitxers de logs binaris i en deixa tan sols un de nou i vuit, que torna a començar amb la nomenclatura pel .000001.
 
 ### Mira’t alguna de les taules (SHOW TABLES LIKE 'repl%') del PERFORMANCE_SCHEMA;    
 >  ![3](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici3/master/Captura5.PNG)  
