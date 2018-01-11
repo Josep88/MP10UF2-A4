@@ -4,7 +4,7 @@
 __CONFIGURACIÓ AL MASTER__  
 
 Realitza una còpia del fitxer de configuració del MySQL /etc/my.conf --> /etc/my.conf.bkp  
->  ![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/master/Captura1.PNG)  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A4/master/img/exercici1/master/Captura1.PNG)  
   
 Modifica el fitxer /etc/my.conf i activa el paràmetre log-bin.   
 Verifica que el paràmetre server-id té un valor numèric (per defecte és 1).  
