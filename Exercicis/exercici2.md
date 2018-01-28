@@ -25,4 +25,5 @@ I comprovació del funcionament del slave:
 >  ![3](https://raw.githubusercontent.com/Josep88/MP10UF2-A4/master/img/exercici2/slave2/Captura3.JPG)  
 
 ***
-[Torna enrere](https://github.com/Josep88/MP10UF2-A4)
+|[Anterior](https://github.com/Josep88/MP10UF2-A4/blob/master/Exercicis/exercici1.md)|[Inici](https://github.com/Josep88/MP10UF2-A3)|[Següent](https://github.com/Josep88/MP10UF2-A4/blob/master/Exercicis/exercici3.md)|
+|:-:|:-:|:-:|
