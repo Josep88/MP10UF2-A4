@@ -51,4 +51,5 @@ Rpl_semi_sync_master_yes_tx -> La quantitat de commits que s'han enviat correcta
 Rpl_semi_sync_master_no_tx  -> La quantitat de commits que no s'han pogut enviar al esclau correctament.  
   
 ***
-[Torna enrere](https://github.com/Josep88/MP10UF2-A4)
+|[Anterior](https://github.com/Josep88/MP10UF2-A4/blob/master/Exercicis/exercici2.md)|[Inici](https://github.com/Josep88/MP10UF2-A3)|[Següent](https://github.com/Josep88/MP10UF2-A4/blob/master/Exercicis/exercici4.md)|
+|:-:|:-:|:-:|
