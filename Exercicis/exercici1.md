@@ -103,4 +103,5 @@ I podem comprovar que esta a la espera d'esdeveniments des del master:
 >  ![4](https://raw.githubusercontent.com/Josep88/MP10UF2-A4/master/img/exercici1/slave2/Captura4.JPG)  
 
 ***
-[Torna enrere](https://github.com/Josep88/MP10UF2-A4)
+|[Inici](https://github.com/Josep88/MP10UF2-A3)|[Següent](https://github.com/Josep88/MP10UF2-A4/blob/master/Exercicis/exercici2.md)|
+|:-:|:-:|
