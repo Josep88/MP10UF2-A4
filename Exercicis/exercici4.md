@@ -15,5 +15,5 @@ Eliminia tots els fitxers de logs binaris i en deixa tan sols un de nou i vuit, 
 >  ![3](https://raw.githubusercontent.com/Josep88/MP10UF2-A4/master/img/exercici3/master/Captura5.PNG)  
 
 ***
-|[Anterior](https://github.com/Josep88/MP10UF2-A4/blob/master/Exercicis/exercici3.md)|[Inici](https://github.com/Josep88/MP10UF2-A3)|[Següent](https://github.com/Josep88/MP10UF2-A4/blob/master/Exercicis/webgrafia.md)|
+|[Anterior](https://github.com/Josep88/MP10UF2-A4/blob/master/Exercicis/exercici3.md)|[Inici](https://github.com/Josep88/MP10UF2-A4)|[Següent](https://github.com/Josep88/MP10UF2-A4/blob/master/Exercicis/webgrafia.md)|
 |:-:|:-:|:-:|
