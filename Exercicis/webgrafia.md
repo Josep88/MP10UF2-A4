@@ -7,4 +7,5 @@
 [MySQL RESET MASTER](https://dev.mysql.com/doc/refman/5.7/en/reset-master.html)  
 
 ***
-[Torna enrere](https://github.com/Josep88/MP10UF2-A4)
+|[Anterior](https://github.com/Josep88/MP10UF2-A4/blob/master/Exercicis/exercici4.md)|[Inici](https://github.com/Josep88/MP10UF2-A3)|
+|:-:|:-:|
